@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif
+}
+.app-heading {
+  border-top: 7px solid #454543;
+  margin:0 auto;
+}
+.rate-color {
+  color: #99000a
+}
+.movie-thumbnail {
+  max-height:495px
+}
+.greybkd {
+  background-color: #000000;
+  padding:10px;
+  color: #eeeeee;
+}
+.rangeslider-horizontal {
+  width: 300px;
+}
+.pull-center {
+  text-align: center 
+}
+.centeriser {
+  margin:0 auto;
+}
+@media only screen and (max-width: 600px) {
+  .smallscreenfloatleft {
+    margin: 2% auto;
+    overflow-wrap: break-word;
+  }
+}
