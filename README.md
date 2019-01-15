@@ -23,13 +23,7 @@ yarn start
 ***IMPORTANT***
 Go to the App.js file in Src/Components/App.js and add your API key from TMDB to variable 'API_KEY' on line 8.
 
-## Deployment
-After cloning the project from Github change directory into the folder that you've created for the project
-
-cd my-folder
-yarn test
-
-## Deployment
+## Deployment Production
 After cloning the project from Github change directory into the folder that you've created for the project
 
 cd my-folder
