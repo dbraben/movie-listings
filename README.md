@@ -8,16 +8,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 You’ll need to have Node >= 6, npm >= 5.2 and Yarn >= 1.12.3 on your machine.
+You'll need a The Movie Database account with an API key. This can be created at the following URL:
+https://www.themoviedb.org/account/signup
 
 ### Installing
 After cloning the project from Github change directory into the folder that you've created for the project.
 
-***IMPORTANT***
-Go to the env. file add your own The Movie Database api key. This can be found at the following URL:
-https://www.themoviedb.org/account/signup
-
-cd my-folder
+Run the following in the terminal
+git clone https://github.com/dbraben/movie-listings
+cd movie-listings
+npm install
 yarn start
+
+***IMPORTANT***
+Go to the App.js file in Src/Components/App.js and add your API key from TMDB to variable 'API_KEY' on line 8.
 
 ## Deployment
 After cloning the project from Github change directory into the folder that you've created for the project
