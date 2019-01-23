@@ -37,5 +37,5 @@ yarn build
 ## Built With
 
 * [React-Rangeslider](https://www.npmjs.com/package/react-rangeslider) - A fast & lightweight react component as a drop in replacement for HTML5 input range slider element.
-* [React-Truncate] (https://www.npmjs.com/package/react-truncate) - A simple text length truncator
+* [React-Truncate](https://www.npmjs.com/package/react-truncate) - A simple text length truncator
 
