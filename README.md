@@ -4,7 +4,7 @@ This is a Movie Listing project using React Hook. The project as of Jan 2019 mak
 <h2>Background</h2>
 Using the TMDb API the solution displays a list of now movies allowing the user to filter by genre and rating.
 
-<blockquote><strongNote:</strong>The solution requires a TMDb account to request an API key.
+<blockquote><g-emoji class="g-emoji" alias="hankey" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a9.png">💩</g-emoji> <strongNote:</strong>The solution requires a TMDb account to request an API key.</blockquote>
 
 <h2>Input</h2>
 <ul>
