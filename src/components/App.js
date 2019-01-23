@@ -42,7 +42,7 @@ useEffect(() => {
 
   // Passes the genre ID from the FilterBar component. Finds the genre 
   // node and see if the filter has already been checked. 
-  // Sets the genre node as 'itemChecked' as true or false.
+  // Sets the genre node 'itemChecked' as true or false.
   // Updates the 'genre' state then creates an array of checked filters.
   // Filters overs the movie node and updates the state using the new 
   // inserted value 'visible'.

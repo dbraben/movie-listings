@@ -27,7 +27,7 @@ The solution displays a list of movies, each showing the title, genre and poster
 The movies are ordered by popularity (most popular first).
 Movies are filterable by multiple genres, the user should have the ability to toggle movies depending on all of its assigned genres. So if 'Action' and 'Drama' genres are selected it lists movies with both 'Action' and 'Drama' genres.
 Movies are also filterable by rating (vote_average property). i.e So if the rating was set to 5, you would expect to see all movies with a rating of 5 or higher.
-The solution makes use of the API's only once and then stores the data into a service worker for offlie use.
+The solution makes use of the API's only once and then stores the data into a service worker for offline use.
 
 <p>This solution uses Google's WorkBox service worker (SW) for a PWA. The SW overriding the Create-React-App service worker using a config-override.js during the compiling process. THE SERVICE WORKER WILL ONLY CACHE AS BUILD.</p>
 
