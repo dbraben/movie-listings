@@ -1,5 +1,13 @@
 # The Movie Listings
-This is a Movie Listing project using React Hook. The project as of Jan 2019 makes use of Create React App @ 16.7.0-alpha.2 so it's not supposed to be used in any production application and was developed for a bit of fun.
+<p>This is a Movie Listing project using React Hook. The project as of Jan 2019 makes use of Create React App @ 16.7.0-alpha.2 so it's not supposed to be used in any production application and was developed for a bit of fun.</p>
+<p>This project is also a great way to understand how to develop a PWA with CRA using Google's Workbox service worker, something that at the time of development wasn't documented or easy to understand.</p>
+<p>For more info within the project checkout the following files:</p>
+<pre>
+<code>
+./config-overrides.js
+
+</code>
+</pre>
 
 <h2>Background</h2>
 Using the TMDb API the solution displays a list of now movies allowing the user to filter by genre and rating.
@@ -15,7 +23,7 @@ Using the TMDb API the solution displays a list of now movies allowing the user 
 Multiple genres input (checkboxes). Must only contain genres from the TMDb API that are in the returned movie result set.</li>
 </ul>
 <h2>Output</h2>
-The solution displays a list of movies, each showing title, genres and the poster image.
+The solution displays a list of movies, each showing the title, genre and poster image.
 The movies are ordered by popularity (most popular first).
 Movies are filterable by multiple genres, the user should have the ability to toggle movies depending on all of its assigned genres. So if 'Action' and 'Drama' genres are selected it lists movies with both 'Action' and 'Drama' genres.
 Movies are also filterable by rating (vote_average property). i.e So if the rating was set to 5, you would expect to see all movies with a rating of 5 or higher.
