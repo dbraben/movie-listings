@@ -5,7 +5,7 @@
 <pre>
 <code>
 ./config-overrides.js
-
+./src/sw.js
 </code>
 </pre>
 
