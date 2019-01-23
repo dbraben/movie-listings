@@ -34,8 +34,11 @@ Go to the App.js file in Src/Components/App.js and add your API key from TMDB to
 ## Deployment Production
 After cloning the project from Github change directory into the folder that you've created for the project
 
-cd my-folder
+<pre>
+<code>
 yarn build
+</code>
+</pre>
 
 
 ## Built With
