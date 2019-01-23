@@ -5,7 +5,7 @@ import Header from './Header';
 import FilterBar from './FilterBar';
 import '../css/App.css';
 
-const API_KEY = '***ADD YOUR API KEY HERE***';
+const API_KEY = 'c1c3571bfe8f7183c8bfd30ee219b73a';
 
 // Lazyload the movie compnenents
 let Movie = lazy(() => import('./Movie'));

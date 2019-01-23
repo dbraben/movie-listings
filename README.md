@@ -15,10 +15,14 @@ https://www.themoviedb.org/account/signup
 After cloning the project from Github change directory into the folder that you've created for the project.
 
 Run the following in the terminal
+<pre>
+<code>
 git clone https://github.com/dbraben/movie-listings
 cd movie-listings
 npm install
 yarn start
+</code>
+</pre>
 
 ***IMPORTANT***
 Go to the App.js file in Src/Components/App.js and add your API key from TMDB to variable 'API_KEY' on line 8.
